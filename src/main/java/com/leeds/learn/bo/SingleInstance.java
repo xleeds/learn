@@ -7,10 +7,10 @@ package com.leeds.learn.bo;
 import java.util.Objects;
 
 /**
- * SingleInstance.
+ * volatile 用于双重检查时的例子.
  *
- * @author Li Zhongxiang, 2021-07-09
- * @version OPRA v1.0.
+ * @author Leeds, 2021-07-09
+ * @version Lee v1.0.
  */
 public class SingleInstance {
 
