@@ -45,4 +45,22 @@ public class SingleInstance {
         return singleInstance;
     }
 
+    public static void main(String[] args) {
+        int x = -123;
+        String temp = x+"";
+        boolean flag = false;
+        if('-' == (temp.charAt(0))){
+            temp = temp.substring(1);
+            flag = true;
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append(temp);
+        sb.reverse();
+        String a = flag?"-"+sb.toString():sb.toString();
+        long b = new Long(a);
+        if(b>=Integer.MIN_VALUE && b<=Integer.MAX_VALUE){
+            System.out.println(new Integer(a));
+        }
+        System.out.println(0);
+    }
 }
