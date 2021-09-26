@@ -2,7 +2,7 @@
  * Copyright (c) ACCA Corp.
  * All Rights Reserved.
  */
-package com.test;
+package com.leeds.learn.bo;
 
 /**
  * MyTask.
